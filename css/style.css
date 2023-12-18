@@ -31,6 +31,12 @@ a {
 body {
 } */
 
+/* DEBUG */
+main hr {
+  color: black;
+  margin-right: 300px;
+  margin-left: 300px;
+}
 :root {
   --background-debug: purple;
   --border-debug: 2px solid red;
@@ -44,4 +50,10 @@ body {
 .col-header {
   background-color: var(--background-debug);
   border: var(--border-debug);
+}
+
+/* MAIN */
+
+main section:nth-child(odd) {
+  background-color: #1abc9c;
 }
