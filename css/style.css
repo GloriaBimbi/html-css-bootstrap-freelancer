@@ -30,3 +30,17 @@ a {
 
 body {
 } */
+
+:root {
+  --background-debug: purple;
+  --border-debug: 2px solid red;
+}
+
+.header {
+  background-color: hsl(210, 29%, 24.3%);
+}
+
+.col-header {
+  background-color: var(--background-debug);
+  border: var(--border-debug);
+}
