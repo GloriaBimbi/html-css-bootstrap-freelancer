@@ -52,6 +52,11 @@ main hr {
   border: var(--border-debug);
 }
 
+.col-portfolio {
+  background-color: var(--background-debug);
+  border: var(--border-debug);
+}
+
 /* MAIN */
 
 main section:nth-child(odd) {
