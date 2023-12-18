@@ -36,7 +36,8 @@ body {
   --border-debug: 2px solid red;
 }
 
-.header {
+.header,
+.copyright {
   background-color: hsl(210, 29%, 24.3%);
 }
 
