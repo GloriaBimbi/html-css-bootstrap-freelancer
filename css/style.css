@@ -42,11 +42,6 @@ main hr {
   --border-debug: 2px solid red;
 }
 
-.header,
-.copyright {
-  background-color: hsl(210, 29%, 24.3%);
-}
-
 .col-header {
   background-color: var(--background-debug);
   border: var(--border-debug);
@@ -61,4 +56,13 @@ main hr {
 
 main section:nth-child(odd) {
   background-color: #1abc9c;
+}
+
+.header,
+.copyright {
+  background-color: hsl(210, 29%, 24.3%);
+}
+
+footer .about-us {
+  background-color: hsl(209.4, 30.5%, 32.7%);
 }
