@@ -47,22 +47,97 @@ main hr {
   border: var(--border-debug);
 }
 
-.col-portfolio {
-  background-color: var(--background-debug);
-  border: var(--border-debug);
-}
-
 /* MAIN */
 
 main section:nth-child(odd) {
   background-color: #1abc9c;
+  color: white;
+}
+
+main section:nth-child(even) {
+  color: #2c3e50;
 }
 
 .header,
 .copyright {
   background-color: hsl(210, 29%, 24.3%);
+  color: white;
 }
 
 footer .about-us {
   background-color: hsl(209.4, 30.5%, 32.7%);
+  color: white;
+}
+
+/* start section */
+.start-img {
+  width: 250px;
+}
+
+/* portfolio section */
+.col-portfolio {
+  border-radius: 1rem;
+  margin: 10px;
+  width: calc(100% / 3 - 20px);
+  aspect-ratio: 1.4;
+  position: relative;
+}
+
+.col-portfolio:first-child {
+  background-color: hsl(347, 44.6%, 51.2%);
+}
+
+.col-portfolio:nth-child(2) {
+  background-color: hsl(187.1, 71.7%, 41.6%);
+}
+
+.col-portfolio:nth-child(3) {
+  background-color: hsl(0, 14.3%, 6.9%);
+}
+
+.col-portfolio:nth-child(4) {
+  background-color: hsl(202.5, 74.7%, 43.3%);
+}
+
+.col-portfolio:nth-child(5) {
+  background-color: hsl(224.9, 85.6%, 38.2%);
+}
+
+.col-portfolio:nth-child(6) {
+  background-color: hsl(22, 28.7%, 72%);
+}
+
+.portfolio-section img {
+  width: 250px;
+  display: inline-block;
+  position: absolute;
+  left: 25px;
+  top: 12.5px;
+}
+
+/* TABLET MEDIA */
+@media screen and (max-width: 768px) {
+  .col-portfolio {
+    width: calc(100% / 2 - 20px);
+  }
+
+  .portfolio-section img {
+    width: 200px;
+  }
+}
+
+/* MOBILE MEDIA */
+@media screen and (max-width: 480px) {
+  .col-portfolio {
+    width: calc(100% - 20px);
+    margin: 10px;
+  }
+
+  .portfolio-section img {
+    width: 406px;
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: 12.5px;
+  }
 }
