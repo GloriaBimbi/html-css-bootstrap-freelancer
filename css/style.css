@@ -115,6 +115,19 @@ footer .about-us {
   top: 12.5px;
 }
 
+/* about section */
+.about-section p {
+  text-align: start;
+}
+
+.about-section button {
+  background-color: #1abc9c;
+  border: 1px solid white;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 5px 10px;
+}
+
 /* TABLET MEDIA */
 @media screen and (max-width: 768px) {
   .col-portfolio {
